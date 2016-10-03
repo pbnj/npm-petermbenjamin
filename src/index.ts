@@ -1,4 +1,4 @@
-export const petermbenjamin = {
+const petermbenjamin = {
   contact: {
     codewars: "https://www.codewars.com/users/pmbenjamin",
     devpost: "http://devpost.com/pmbenjamin",
@@ -18,3 +18,5 @@ export const petermbenjamin = {
     middle: "M",
   },
 }
+
+export {petermbenjamin}
