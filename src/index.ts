@@ -1,7 +1,8 @@
 const name = {
   first: "Peter",
-   last: "Benjamin",
-   middle: "M",
+  last: "Benjamin",
+  middle: "M",
+  title: "Senior Software Engineer",
 }
 
 const contact = {
