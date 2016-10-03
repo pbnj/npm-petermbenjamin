@@ -19,4 +19,4 @@ const petermbenjamin = {
   },
 }
 
-export {petermbenjamin}
+export default petermbenjamin
