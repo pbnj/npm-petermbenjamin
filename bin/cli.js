@@ -7,6 +7,7 @@ const Table = require('cli-table')
 const petermbenjamin = require('../dist/index')
 
 commander.version(packageJson.version)
+  .usage('[command]')
 
 commander.command('fullname').alias('f')
   .description('Print Full Name')
