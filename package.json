@@ -1,6 +1,6 @@
 {
   "name": "petermbenjamin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is me!",
   "main": "dist/index.js",
   "scripts": {
