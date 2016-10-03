@@ -4,8 +4,9 @@
   "description": "This is me!",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "tslint src/index.ts",
-    "build": "tsc ."
+    "lint": "tslint src/*.ts",
+    "build": "npm run lint && tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
