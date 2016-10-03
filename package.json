@@ -6,7 +6,11 @@
   "scripts": {
     "lint": "tslint src/*.ts",
     "build": "npm run lint && tsc",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "pbenj --help"
+  },
+  "bin": {
+    "pbenj": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +29,7 @@
   },
   "dependencies": {
     "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
     "commander": "^2.9.0"
   }
 }
