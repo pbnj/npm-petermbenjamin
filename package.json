@@ -1,0 +1,25 @@
+{
+  "name": "petermbenjamin",
+  "version": "1.0.0",
+  "description": "This is me!",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "tslint src/index.ts",
+    "build": "tsc ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmbenjamin/npm-petermbenjamin.git"
+  },
+  "author": "Peter Benjamin <petermbenjamin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmbenjamin/npm-petermbenjamin/issues"
+  },
+  "homepage": "https://github.com/pmbenjamin/npm-petermbenjamin#readme",
+  "devDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  }
+}
