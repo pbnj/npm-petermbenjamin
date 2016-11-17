@@ -1,5 +1,6 @@
 # PETERMBENJAMIN
-This is me!
+This is me!  
+I also go by `pbenj` (pronounced _PB-n-J_)
 
 ## Install
 - As a module:
