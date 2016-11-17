@@ -55,7 +55,7 @@
 
 	module.exports = {
 		"name": "petermbenjamin",
-		"version": "3.1.0",
+		"version": "3.1.1",
 		"description": "This is me!",
 		"main": "index.js",
 		"scripts": {
