@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint --ignore-path .eslintignore .",
     "build": "webpack",
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "prepublish": "npm run test && npm run lint && npm run build"
   },
   "bin": {
     "pbenj": "./bin/cli.js"
