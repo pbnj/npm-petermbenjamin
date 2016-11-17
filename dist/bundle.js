@@ -55,13 +55,14 @@
 
 	module.exports = {
 		"name": "petermbenjamin",
-		"version": "2.0.1",
+		"version": "3.1.0",
 		"description": "This is me!",
 		"main": "index.js",
 		"scripts": {
-			"lint": "eslint --ignore-path .gitignore .",
+			"lint": "eslint --ignore-path .eslintignore .",
 			"build": "webpack",
-			"test": "mocha --reporter spec"
+			"test": "mocha --reporter spec",
+			"prepublish": "npm run test && npm run lint && npm run build"
 		},
 		"bin": {
 			"pbenj": "./bin/cli.js"
