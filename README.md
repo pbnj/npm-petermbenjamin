@@ -1,6 +1,17 @@
 # PETERMBENJAMIN
 This is me!
 
+## Install
+- As a module:
+```
+npm i --save petermbenjamin
+```
+
+- As a CLI:
+```
+npm i -g petermbenjamin
+```
+
 ## Usage
 - As a module:
 ```
