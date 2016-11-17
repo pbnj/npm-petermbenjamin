@@ -4,7 +4,7 @@
   "description": "This is me!",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint --ignore-path .eslintignore .",
     "build": "webpack",
     "test": "mocha --reporter spec"
   },
