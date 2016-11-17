@@ -1,13 +1,12 @@
 {
   "name": "petermbenjamin",
-  "version": "2.0.1",
+  "version": "3.1.0",
   "description": "This is me!",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "lint": "tslint src/*.ts",
-    "build": "npm run lint && tsc",
-    "prepublish": "npm run build",
-    "test": "pbenj --help"
+    "lint": "eslint --ignore-path .eslintignore .",
+    "build": "webpack",
+    "test": "mocha --reporter spec"
   },
   "bin": {
     "pbenj": "./bin/cli.js"
@@ -23,13 +22,40 @@
   },
   "homepage": "https://github.com/pmbenjamin/npm-petermbenjamin#readme",
   "devDependencies": {
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "chai": "^3.5.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.3"
   },
   "dependencies": {
     "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
     "commander": "^2.9.0"
+  },
+  "info": {
+    "name": {
+      "first": "Peter",
+      "middle": "M",
+      "last": "Benjamin",
+      "title": "Senior Software Engineer"
+    },
+    "contact": {
+      "codewars": "https://www.codewars.com/users/pmbenjamin",
+      "devpost": "http://devpost.com/pmbenjamin",
+      "email": "petermbenjamin@gmail.com",
+      "github": "https://github.com/pmbenjamin",
+      "keybase": "https://keybase.io/pbenj",
+      "linkedIn": "https://linkedin.com/in/pmbenjamin",
+      "medium": "https://medium.com/@pmbenjamin",
+      "npm": "https://www.npmjs.com/~pmbenjamin",
+      "quora": "https://www.quora.com/profile/Peter-Benjamin-2",
+      "reddit": "https://www.reddit.com/user/Pmbenjamin/",
+      "twitter": "https://twitter.com/pmbenjamin"
+    }
   }
 }
