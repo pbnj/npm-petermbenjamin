@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/petermbenjamin.png)](https://nodei.co/npm/petermbenjamin/)
 
-[![Build Status](https://travis-ci.org/pmbenjamin/petermbenjamin.svg?branch=master)](https://travis-ci.org/pmbenjamin/petermbenjamin)
+[![Build Status](https://travis-ci.org/petermbenjamin/npm-petermbenjamin.svg?branch=master)](https://travis-ci.org/petermbenjamin/npm-petermbenjamin)
 [![Known Vulnerabilities](https://snyk.io/test/npm/petermbenjamin/badge.svg?style=flat-square)](https://snyk.io/test/npm/petermbenjamin)
 
 I also go by `pbenj` (pronounced _Pee-Bee-En-Jay_, like the sandwich)
