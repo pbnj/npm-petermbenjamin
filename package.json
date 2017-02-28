@@ -4,8 +4,8 @@
   "description": "This is me!",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint",
-    "security": "snyk auth && snyk test",
+    "lint": "eslint .",
+    "security": "snyk test",
     "mocha": "mocha --reporter spec",
     "test": "npm run security && npm run mocha",
     "prepublish": "npm run lint && npm run test"
