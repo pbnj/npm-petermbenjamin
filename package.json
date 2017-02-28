@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .eslintignore .",
-    "build": "webpack",
-    "test": "mocha --reporter spec",
+    "security": "snyk auth && snyk test",
+    "mocha": "mocha --reporter spec",
+    "test": "npm run security && npm run mocha",
     "prepublish": "npm run lint && npm run test"
   },
   "bin": {
@@ -28,7 +29,8 @@
     "eslint": "^3.10.2",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "snyk": "^1.25.1"
   },
   "dependencies": {
     "chalk": "^1.1.3",
