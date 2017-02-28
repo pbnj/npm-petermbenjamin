@@ -1,6 +1,12 @@
 # PETERMBENJAMIN
-This is me!  
-I also go by `pbenj` (pronounced _PB-n-J_)
+> This is me!  
+
+[![NPM](https://nodei.co/npm/petermbenjamin.png)](https://nodei.co/npm/petermbenjamin/)
+
+[![Build Status](https://travis-ci.org/pmbenjamin/petermbenjamin.svg?branch=master)](https://travis-ci.org/pmbenjamin/petermbenjamin)
+[![Known Vulnerabilities](https://snyk.io/test/npm/petermbenjamin/badge.svg?style=flat-square)](https://snyk.io/test/npm/petermbenjamin)
+
+I also go by `pbenj` (pronounced _Pee-Bee-En-Jay_, like the sandwich)
 
 ## Install
 - As a module:
