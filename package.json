@@ -4,7 +4,7 @@
   "description": "This is me!",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ignore-path .eslintignore .",
+    "lint": "eslint",
     "security": "snyk auth && snyk test",
     "mocha": "mocha --reporter spec",
     "test": "npm run security && npm run mocha",
