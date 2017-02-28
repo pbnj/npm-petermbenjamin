@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "security": "snyk test",
+    "security": "snyk auth $SNYK_TOKEN && snyk test",
     "mocha": "mocha --reporter spec",
-    "test": "npm run security && npm run mocha",
-    "prepublish": "npm run lint && npm run test"
+    "test": "npm run security && npm run mocha && npm run lint",
+    "prepublish": "npm run test"
   },
   "bin": {
     "pbenj": "./bin/cli.js",
