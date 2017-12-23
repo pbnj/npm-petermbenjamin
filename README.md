@@ -1,4 +1,6 @@
 # PETERMBENJAMIN
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/petermbenjamin/npm-petermbenjamin.svg)](https://greenkeeper.io/)
 > This is me!  
 
 [![NPM](https://nodei.co/npm/petermbenjamin.png?downloads=true)](https://nodei.co/npm/petermbenjamin/)
